@@ -1,5 +1,13 @@
+import { IndexPage } from "./pages";
+import { GlobalStyle } from "./stylesheet/global";
+
 function App() {
-  return <h1> Hello World</h1>;
+  return (
+    <>
+      <GlobalStyle />
+      <IndexPage />
+    </>
+  );
 }
 
 export default App;
